@@ -6,7 +6,17 @@ namespace _20190118a
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var Charlie = new Tuna();
         }
+    }
+
+    class Fish
+    {
+        public Fish() { Console.WriteLine("I am a Fish"); }
+    }
+
+    class Tuna : Fish
+    {
+
     }
 }
